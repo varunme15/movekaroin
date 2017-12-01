@@ -10,6 +10,7 @@ $('#button1').on('click'),function () {
   eventAction: 'Scroll Button1 click',
   eventLabel: 'Scroll Button1 click'
   });
+  return true;
 }
 
 $('#button2').on('click'),function () {
@@ -19,6 +20,7 @@ $('#button2').on('click'),function () {
   eventAction: 'Scroll Button2 click',
   eventLabel: 'Scroll Button2 click'
   });
+  return true;
 }
 
 $('#button3').on('click'),function () {
@@ -28,6 +30,7 @@ $('#button3').on('click'),function () {
   eventAction: 'Scroll Button3 click',
   eventLabel: 'Scroll Button3 click'
   });
+  return true;
 }
 
 $('#button4').on('click'),function () {
@@ -37,6 +40,7 @@ $('#button4').on('click'),function () {
   eventAction: 'Scroll Button4 click',
   eventLabel: 'Scroll Button4 click'
   });
+  return true;
 }
 
 $('#button5').on('click'),function () {
@@ -46,6 +50,7 @@ $('#button5').on('click'),function () {
   eventAction: 'Scroll Button5 click',
   eventLabel: 'Scroll Button5 click'
   });
+  return true;
 }
 
 $('.contactForm').on('submit', function () {
