@@ -4,56 +4,6 @@ var API_KEY = '3687E41A-4C53-D6E8-FF6A-46A7EEC35600';
 Backendless.serverURL = 'https://api.backendless.com';
 Backendless.initApp(APP_ID, API_KEY);
 
-$('#button1').click(function () {
-  ga('send', {
-  hitType: 'event',
-  eventCategory: 'Scroll Button',
-  eventAction: 'Scroll Button1 click',
-  eventLabel: 'Scroll Button1 click'
-  });
-  return true;
-});
-
-$('#button2').click(function () {
-  ga('send', {
-  hitType: 'event',
-  eventCategory: 'Scroll Button',
-  eventAction: 'Scroll Button2 click',
-  eventLabel: 'Scroll Button2 click'
-  });
-  return true;
-});
-
-$('#button3').click(function () {
-  ga('send', {
-  hitType: 'event',
-  eventCategory: 'Scroll Button',
-  eventAction: 'Scroll Button3 click',
-  eventLabel: 'Scroll Button3 click'
-  });
-  return true;
-});
-
-$('#button4').click(function () {
-  ga('send', {
-  hitType: 'event',
-  eventCategory: 'Scroll Button',
-  eventAction: 'Scroll Button4 click',
-  eventLabel: 'Scroll Button4 click'
-  });
-  return true;
-});
-
-$('#button5').click(function () {
-  ga('send', {
-  hitType: 'event',
-  eventCategory: 'Scroll Button',
-  eventAction: 'Scroll Button5 click',
-  eventLabel: 'Scroll Button5 click'
-  });
-  return true;
-});
-
 $('.contactForm').on('submit', function () {
   ga('send', {
   hitType: 'event',
