@@ -3,7 +3,7 @@ var API_KEY = '3687E41A-4C53-D6E8-FF6A-46A7EEC35600';
 
 Backendless.serverURL = 'https://api.backendless.com';
 Backendless.initApp(APP_ID, API_KEY);
-$('#button1').on('click'),function () {
+$('#button1').click{function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -11,9 +11,9 @@ $('#button1').on('click'),function () {
   eventLabel: 'Scroll Button1 click'
   });
   return true;
-}
+}};
 
-$('#button2').on('click'),function () {
+$('#button2').click{function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -21,9 +21,9 @@ $('#button2').on('click'),function () {
   eventLabel: 'Scroll Button2 click'
   });
   return true;
-}
+}};
 
-$('#button3').on('click'),function () {
+$('#button3').click{function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -31,9 +31,9 @@ $('#button3').on('click'),function () {
   eventLabel: 'Scroll Button3 click'
   });
   return true;
-}
+}};
 
-$('#button4').on('click'),function () {
+$('#button4').click{function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -41,9 +41,9 @@ $('#button4').on('click'),function () {
   eventLabel: 'Scroll Button4 click'
   });
   return true;
-}
+}};
 
-$('#button5').on('click'),function () {
+$('#button5').click{function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -51,7 +51,7 @@ $('#button5').on('click'),function () {
   eventLabel: 'Scroll Button5 click'
   });
   return true;
-}
+}};
 
 $('.contactForm').on('submit', function () {
   ga('send', {
