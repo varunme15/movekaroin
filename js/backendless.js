@@ -5,6 +5,12 @@ Backendless.serverURL = 'https://api.backendless.com';
 Backendless.initApp(APP_ID, API_KEY);
 
 $('.contactForm').on('submit', function () {
+  ga('send', {
+  hitType: 'event',
+  eventCategory: 'Form Submit',
+  eventAction: 'Form Submit Click',
+  eventLabel: 'Form Submit Click'
+  });
   Backendless.Data.of( "subscribers" ).save( { email:$('#email').val(),fullname:$('#fullname').val(),originCity:$('#originCity').val(),destinationCity:$('#destinationCity').val() } )
       .then( function( obj ) {
           console.log( "object saved. objectId " + obj.objectId )
