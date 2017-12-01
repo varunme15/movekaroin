@@ -3,7 +3,7 @@ var API_KEY = '3687E41A-4C53-D6E8-FF6A-46A7EEC35600';
 
 Backendless.serverURL = 'https://api.backendless.com';
 Backendless.initApp(APP_ID, API_KEY);
-$('button1').on('click'),function () {
+$('#button1').on('click'),function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -12,7 +12,7 @@ $('button1').on('click'),function () {
   });
 }
 
-$('button2').on('click'),function () {
+$('#button2').on('click'),function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -21,7 +21,7 @@ $('button2').on('click'),function () {
   });
 }
 
-$('button3').on('click'),function () {
+$('#button3').on('click'),function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -30,7 +30,7 @@ $('button3').on('click'),function () {
   });
 }
 
-$('button4').on('click'),function () {
+$('#button4').on('click'),function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
@@ -39,7 +39,7 @@ $('button4').on('click'),function () {
   });
 }
 
-$('button5').on('click'),function () {
+$('#button5').on('click'),function () {
   ga('send', {
   hitType: 'event',
   eventCategory: 'Scroll Button',
