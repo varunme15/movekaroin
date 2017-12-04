@@ -11,13 +11,13 @@ $('.contactForm').on('submit', function () {
   eventAction: 'Form Submit Click',
   eventLabel: 'Form Submit Click'
   });
-  Backendless.Data.of( "subscribers" ).save( { email:$('#email').val(),fullname:$('#fullname').val(),originCity:$('#originCity').val(),destinationCity:$('#destinationCity').val() } )
+  Backendless.Data.of( "subscribers" ).save( { email:$('#email').val(),fullname:$('#fullname').val(), phoneNumber:$('#phoneNumber').val(),originCity:$('#originCity').val(),destinationCity:$('#destinationCity').val() } )
       .then( function( obj ) {
           console.log( "object saved. objectId " + obj.objectId )
       } )
       .catch( function( error ) {
           console.log( "got error - " + error )
       })
-    alert('Thanks for helping us out!');
+    alert('Thanks for joining our waitlist. We will be in touch shortly!');
     return false;
 });
