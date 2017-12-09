@@ -11,6 +11,13 @@ html {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
+list-group-item {
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+  }
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -211,6 +218,18 @@ header.masthead {
 
 .text-primary {
   color: #F05F40 !important; }
+
+  .col-centered{
+      float: none;
+      margin: 0 auto;
+  }
+  
+.list-group-item {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+    }
 
 .btn {
   font-weight: 700;
